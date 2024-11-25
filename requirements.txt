@@ -1,5 +1,5 @@
 streamlit
 replicate
 requests
-PIL
+Pillow
 io
