@@ -11,7 +11,7 @@ from io import BytesIO
 # PART 2: SETUP REPLICATE CREDENTIALS AND AUTHENTICATION
 
 # Set up your Replicate API key (optionally from environment variable)
-REPLICATE_API_TOKEN = "r8_avjJDMAbRS2oLO1rtAarvYQaL8aWPHC2RouEv"  # You can store your API key in an environment variable
+REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")  # You can store your API key in an environment variable
 
 if REPLICATE_API_TOKEN is None:
     st.error("Replicate API token not found. Please set it in your environment.")
