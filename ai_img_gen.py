@@ -40,7 +40,7 @@ with st.sidebar:
     st.header("Prompt and Options")
 
     # Input box for the user to type the prompt (using text_area for multiline input)
-    prompt = st.text_area('Enter a prompt to generate an image', height=50)
+    prompt = st.text_area('Enter a prompt to generate an image', height=68)
 
     # Checkbox to enable or disable random seed
     use_random_seed = st.checkbox('Use Random Seed', value=True)
